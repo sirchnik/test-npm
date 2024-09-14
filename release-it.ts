@@ -5,6 +5,6 @@ export default {
     release: true,
     makeLatest: false,
     releaseNotes: "echo 'Release notes for $VERSION'",
-    releaseName: "makeLatest: false",
+    releaseName: "first makeLatest: false",
   },
 } satisfies Config;
