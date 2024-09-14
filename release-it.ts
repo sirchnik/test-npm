@@ -3,8 +3,8 @@ import type { Config } from "release-it";
 export default {
   github: {
     release: true,
-    makeLatest: false,
+    makeLatest: true,
     releaseNotes: "echo 'Release notes for $VERSION'",
-    releaseName: "first makeLatest: false",
+    releaseName: "second makeLatest: true",
   },
 } satisfies Config;
