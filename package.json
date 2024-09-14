@@ -1,0 +1,27 @@
+{
+  "name": "dep-repro-lib",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "src"
+  ],
+  "main": "src/libExports.ts",
+  "types": "src/libExports.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -p tsconfig.app.json",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.13.0",
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "release-it": "file:../release-it/release-it-17.6.0.tgz",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
