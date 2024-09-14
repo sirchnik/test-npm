@@ -8,11 +8,15 @@
   ],
   "main": "src/libExports.ts",
   "types": "src/libExports.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sirchnik/test-npm.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -p tsconfig.app.json",
     "preview": "vite preview",
-    "release": "release-it"
+    "release": "release-it -c release-it.ts"
   },
   "dependencies": {
     "@vueuse/core": "^9.13.0",
